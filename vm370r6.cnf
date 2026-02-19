@@ -2,6 +2,7 @@
 # Sample configuration file for Hercules ESA/390 emulator
 #
 
+ARCHMODE  S/370
 CPUSERIAL 000777        # CPU serial number
 CPUMODEL  3158          # CPU model number
 MAINSIZE  2             # Main storage size in megabytes
