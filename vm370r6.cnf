@@ -4,7 +4,7 @@
 
 ARCHMODE  S/370
 CPUSERIAL 000777        # CPU serial number
-CPUMODEL  3158          # CPU model number
+CPUMODEL  4381          # CPU model number
 MAINSIZE  2             # Main storage size in megabytes
 XPNDSIZE  0             # Expanded storage size in megabytes
 CNSLPORT  3270          # TCP port number to which consoles connect
