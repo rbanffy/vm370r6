@@ -1,4 +1,4 @@
-* Hercules runs the commands in this file upon startup.
+* To run this file, specify the filename with the -r command-line option
 
 * IPL VM/370, which resides on device 131.
 pause 2
