@@ -1,0 +1,11 @@
+* Hercules runs the commands in this file upon startup.
+
+* IPL VM/370, which resides on device 131.
+pause 2
+ipl 131
+
+* Enable any attached devices.
+pause 4
+/no
+/cold
+/enable all
