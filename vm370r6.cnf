@@ -22,7 +22,7 @@ OSTAILOR  VM            # OS tailoring
 000C    3505
 000D    3525    punch00d.txt ascii
 000E    1403    print00e.txt crlf
-001F    3215
+001F    3215-C  / noprompt
 0040	3270
 0041	3270
 0580    3420    tapes/dmkddr.aws
