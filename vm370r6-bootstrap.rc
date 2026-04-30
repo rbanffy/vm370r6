@@ -1,0 +1,32 @@
+* To run this file, specify the filename with the -r command-line option
+
+* IPL from the first tape device.
+pause 2
+ipl 580
+pause 10
+
+* Restore the second (VM) tape to disk VMREL6
+/input 581 3420
+pause 1
+/output 131 3330 VMREL6
+pause 1
+/restore all
+pause 10
+
+* Stop the CPU, clear, and reboot DDR!
+stop
+system_reset
+devinit 0580 tapes/dmkddr.aws
+pause 1
+ipl 580
+pause 10
+
+* Restore the third (CP) tape to CPR6L0
+/input 582 3420
+pause 1
+/output 132 3330 CPR6L0
+pause 1
+/restore all    
+pause 10
+
+quit
