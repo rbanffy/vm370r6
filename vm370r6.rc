@@ -3,9 +3,17 @@
 * IPL VM/370, which resides on device 131.
 pause 2
 ipl 131
+pause 2
 
-* Enable any attached devices.
-pause 4
+* Answer TOD clock prompt (NO)
 /no
+pause 2
+
+* Answer START prompt (COLD).
 /cold
+pause 2
+
+* Enable any attached terminals.
 /enable all
+
+* All terminals are active. You can connect to them with a 3278-2
